@@ -18,7 +18,7 @@ public class Fabric_hitboxesClient implements ClientModInitializer {
     private static KeyBinding increaseHitboxKey;
     private static KeyBinding decreaseHitboxKey;
 
-    // теперь ключ — UUID игрока, чтобы не терять масштаб при смене объекта PlayerEntity
+
     private static final Map<UUID, Float> playerHitboxWidthScale = new HashMap<>();
 
     @Override
