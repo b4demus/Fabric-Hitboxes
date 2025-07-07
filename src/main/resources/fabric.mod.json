@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "fabric_hitboxes",
+  "version": "${version}",
+  "name": "Fabric Hitboxes",
+  "description": "Hitbox Mod",
+  "authors": [
+    "b4demus"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fabric_hitboxes/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.b4demus.fabric_hitboxes.client.Fabric_hitboxesDataGenerator"
+    ],
+    "client": [
+      "org.b4demus.fabric_hitboxes.client.Fabric_hitboxesClient"
+    ],
+    "main": [
+      "org.b4demus.fabric_hitboxes.Fabric_hitboxes"
+    ]
+  },
+  "mixins": [
+    "fabric_hitboxes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
