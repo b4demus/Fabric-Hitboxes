@@ -23,8 +23,7 @@ Fabric Hitboxes — это небольшой мод для Minecraft 1.16.5 н�
 
 # 🟥 Fabric Hitboxes
 
-Fabric Hitboxes is a small Minecraft 1.16.5 mod for Fabric that allows you to change the width of player hitboxes in real time using hotkeys. 🔴 Pressing **O** expands the hitboxes, while pressing **I** shrinks them. The scale is automatically applied to all players on the server except yourself. This mod is useful for testing interactions, developing new PvP mechanics, or practicing precise hits ⚔️.
-
+Fabric Hitboxes is a small Minecraft 1.16.5 mod for Fabric that allows you to change the width of player hitboxes in real time using hotkeys.
 ## ⚙️ Installation
 
 Requirements:
